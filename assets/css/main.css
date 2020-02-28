@@ -88,6 +88,7 @@ input, select, textarea {
 
 	body {
 		background: #2e3842;
+		position: relative;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -4066,5 +4067,25 @@ input, select, textarea {
 .row-logos a, .row-logos a:visited {
 	border-bottom: 0;
 	cursor: pointer;
+}
+
+@media screen and (max-height: 780px) {	
+	#banner {
+		position: relative;
+	}
+	#banner .more ,#banner .more::after {
+		position: absolute;
+	}
+	#banner .more {
+		bottom: 0;
+		right: 2em;
+		left: auto;
+		text-align: right;
+	}
+	#banner .more::after {
+		left: auto;
+		right: 0;
+		bottom: auto;
+	}
 }
 
