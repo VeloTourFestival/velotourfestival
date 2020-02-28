@@ -24,16 +24,14 @@
 		<meta name="twitter:url" content="https://velotourfestival.be/nl"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-        <!-- Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146790565-1"></script>
 		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-146790565-1', 'auto');
-		ga('send', 'pageview');				
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-146790565-1');
 		</script>
-	    <!-- End Google Analytics -->	
 	</head>
 	<body class="landing is-preload">
 
@@ -67,6 +65,9 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<div class="banner__logo">
+								<img src="./images/logo-edition.png" alt="VeloTour Festival logo" />
+							</div>
 							<h2>VeloTour Festival</h2>
 							<p>Ontdek wat fietsreizen jou kan bieden. <br/>Van 1 to 3 mei 2020 rond Brussel.
 							<!-- crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>-->
@@ -199,24 +200,24 @@
 				<!-- Footer -->
 					<footer id="footer">
                         <header class="major">
-								<div class="row-logos">
-                                  <div class="column-logos">
-                                    <img src="" alt="" style="width:30%;height:30;">
-                                  </div>
-                                   <div class="column-logos">
-                                    <img src="images/Muntpunt.png" alt="Muntpunt" style="width:50%;height:50%;">
-                                  </div>
-                                    <div class="column-logos">
-                                    <img src="images/OpenStreetMapBE.svg" alt="OpenStreetMap Belgium" style="width:60%;height:60%;">
-                                  </div>
-                                    <div class="column-logos">
-                                    <img src="images/Cactus.png" alt="Cactus" style="width:60%;height:60%;">
-                                  </div>
-                                  <div class="column-logos">
-                                    <img src="" alt="" style="width:30%;height:30;">
-                                  </div>
-                                </div>
-							</header>
+							<div class="row-logos">
+							  <div class="column-logos">
+								<img src="" alt="" style="width:30%;height:30;">
+							  </div>
+							   <div class="column-logos">
+								<a href="https://muntpunt.be" target="_blank"><img src="images/Muntpunt.png" alt="Muntpunt" style="width:50%;height:50%;"></a>
+							  </div>
+								<div class="column-logos">
+								<a href="https://osm.be" target="_blank"><img src="images/OpenStreetMapBE.svg" alt="OpenStreetMap Belgium" style="width:60%;height:60%;"></a>
+							  </div>
+								<div class="column-logos">
+								<a href="https://cactus.brussels/" target="_blank"><img src="images/Cactus.png" alt="Cactus" style="width:60%;height:60%;"></a>
+							  </div>
+							  <div class="column-logos">
+								<img src="" alt="" style="width:30%;height:30;">
+							  </div>
+							</div>
+						</header>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/velotourfestival" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/velotourfestival/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
