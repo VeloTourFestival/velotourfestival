@@ -3584,6 +3584,21 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.banner__logo {
+		width: 25%;
+		margin: 0 auto;
+	}
+
+	.banner__logo img {
+		max-width: 100%;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.banner__logo {
+			width: 50%;
+		}
+	  }
+
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
