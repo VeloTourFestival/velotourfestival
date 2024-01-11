@@ -6,6 +6,14 @@
       "type": "shell",
       "command": "python3 -m http.server",
       "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "npm: start",
+      "detail": "live-server",
       "group": {
         "kind": "build",
         "isDefault": true
