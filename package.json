@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "name": "velotour",
+  "url": "https://velotourfestival.be/",
+  "description": "Creating the website for the VeloTour Festival. This is work in progress.",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeloTourFestival/velotourfestival.git"
+  },
+  "keywords": [
+    "bicycle",
+    "event",
+    "belgium"
+  ],
+  "author": {
+    "name": "Dries van Ransbeeck",
+    "url": "https://github.com/Driesvanransbeeck"
+  },
+  "contributors": [
+    {
+      "name": "Thor Galle",
+      "url": "https://thorgalle.me"
+    },
+    {
+      "name": "Manon Brulard",
+      "url": "https://github.com/ManonBrulard"
+    }
+  ],
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/VeloTourFestival/velotourfestival/issues"
+  },
+  "homepage": "https://github.com/VeloTourFestival/velotourfestival#readme"
+}
