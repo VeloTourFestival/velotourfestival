@@ -4255,7 +4255,7 @@ body.is-mobile.landing #footer {
 
 body.landing #page-wrapper,
 body.is-mobile.landing #banner,
-body.is-mobile.landing .wrapper.style4 {
+body.is-mobile.landing section#banner .wrapper.style4 {
 	background-image: none;
 }
 
