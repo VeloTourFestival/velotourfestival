@@ -60,7 +60,7 @@
 				<!-- Banner -->
 					<section id="banner">
             <video
-              id="bgVideo"
+              class="bg-video bg-video--mobile"
               alt="A background video trailer for the Velotour Festival"
               preload="auto"
               muted=""
@@ -70,8 +70,24 @@
               isbgvideo="true"
             >
               <source
-                src="https://storage.googleapis.com/wtmg-static/velotour/velotour_homepage_2200_2.mp4"
                 type="video/mp4"
+                src="https://storage.googleapis.com/wtmg-static/velotour/velotour_homepage_2200.mp4"
+              />
+              <button class="id">Play</button>
+            </video>
+            <video
+              class="bg-video bg-video--desktop"
+              alt="A background video trailer for the Velotour Festival"
+              preload="auto"
+              muted=""
+              loop=""
+              autoplay=""
+              playsinline="true"
+              isbgvideo="true"
+            >
+              <source
+                type="video/mp4"
+                src="https://storage.googleapis.com/wtmg-static/velotour/velotour_homepage_2000_3.mp4"
               />
               <button class="id">Play</button>
             </video>

@@ -4259,7 +4259,7 @@ body.is-mobile.landing section#banner .wrapper.style4 {
 	background-image: none;
 }
 
-#bgVideo {
+.bg-video {
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -4270,6 +4270,31 @@ body.is-mobile.landing section#banner .wrapper.style4 {
 	width: 100%;
 	/* Put logo on top */
 	z-index: -1;
+}
+
+.bg-video--desktop {
+	display: block;
+}
+
+.bg-video--mobile {
+	display: none;
+}
+
+@media screen and (max-width: 736px) {
+	.bg-video--desktop {
+		display: none;
+	}
+
+	.bg-video--mobile {
+		display: block;
+		/* In the first video (used for mobile) most faces are in the top-center:
+		 * bring them to the left by translating the video
+		 * 
+		 * We could do the same with the 3rd version (used for desktop), but that one now has the 
+		 * second shot removed.
+		*/
+		object-position: -710px;
+	}
 }
 
 section#banner .inner {
