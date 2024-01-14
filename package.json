@@ -10,6 +10,9 @@
   "scripts": {
     "start": "live-server"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VeloTourFestival/velotourfestival.git"
