@@ -4157,7 +4157,8 @@ body.is-mobile.landing #page-wrapper {
 }
 
 body.is-mobile.landing #banner,
-body.is-mobile.landing .wrapper.style4 {
+body.is-mobile.landing .wrapper.style4,
+body section#cta.wrapper.style4 {
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
@@ -4166,6 +4167,7 @@ body.is-mobile.landing .wrapper.style4 {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 
 body.is-mobile.landing #footer {
 	background-color: #1d242a;
@@ -4309,4 +4311,8 @@ section#banner .inner {
 
 section#banner .inner p {
 	margin-bottom: 0;
+}
+
+body.landing #footer {
+	background-color: rgba(29, 36, 42, 1)
 }
