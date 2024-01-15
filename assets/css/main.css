@@ -4365,6 +4365,7 @@ section#testimonials>.inner {
 }
 
 section#testimonials .features>li p {
+	color: white;
 	font-size: 1.1em;
 }
 
@@ -4377,6 +4378,7 @@ section#testimonials .features>li p::after {
 }
 
 section#testimonials .features>li .name {
+	color: white;
 	font-weight: 600;
 }
 
